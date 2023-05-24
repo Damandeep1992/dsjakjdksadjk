@@ -1,0 +1,73 @@
+body {
+	font-family: sans-serif;
+	background: #D6EAF8;
+}
+
+.login-box {
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(8, 8, 8);
+	background: #f7f700;
+	padding: 30px 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.login-box h2 {
+	margin: 0 0 30px;
+	padding: 0;
+	text-align: center;
+}
+
+.login-box form .user-box {
+	position: relative;
+    
+}
+
+.login-box form .user-box input {
+	width: 100%;
+	padding: 10px 0px;
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	margin-bottom: 30px;
+	border: none;
+	outline: none;
+	background: white;
+}
+
+.login-box form .user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 10px;
+	font-size: 16px;
+	color: rgb(149, 142, 142);
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.login-box form .user-box input:focus ~ label,
+.login-box form .user-box input:valid ~ label {
+	top: -20px;
+	left: 0;
+	color: #f7f700;;
+	font-size: 12px;
+}
+
+.login-box button {
+    background: transparent;
+    border: 2px solid black;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    background: #41b458;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+#resume-container {
+    margin-top: 50px;
+}
+
+#navigation-container {
+    margin-top: 20px;
+}
+
+#filter,
+#filter-btn,
+#prev-btn,
+#next-btn {
+    margin: 10px;
+}
+
+.hide {
+    display: none;
+}
